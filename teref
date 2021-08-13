@@ -8,4 +8,4 @@ PROXY=socks5://172.104.191.254:3333
 
 ALGO=wrkzcoin
 
-sudo ./kontol --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO
+sudo ./memek --pool $POOL --username $WALLET.$WORKER --password x --algorithm $ALGO
